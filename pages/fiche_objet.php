@@ -57,6 +57,12 @@ $obj = getObjet($idObjet);
             <?php } ?>
         </tbody>
     </table>
+
+    <div class="container">
+        <?php while ($data = mysqli_fetch_assoc($img)) { ?>
+            <img src="../" alt="">
+        <?php } ?>
+    </div>
     <a href="accueil.php">Retour à l'accueil</a>
 </body>
 
